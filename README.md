@@ -1,21 +1,15 @@
-# 📈 Stock Price Prediction using LSTM
+# Stock Price Prediction using LSTM
 
-## 📌 Overview
-This project implements a **Long Short-Term Memory (LSTM)** neural network to predict stock prices based on historical time series data.
+## Overview
+This project implements a Long Short-Term Memory (LSTM) neural network to predict stock prices based on historical time series data. The goal is to capture temporal patterns in stock price movements and generate future predictions.
 
-The goal is to capture temporal patterns in stock price movements and generate future predictions.
-
----
-
-## 🧠 Model
+## Model
 - Model type: LSTM (Recurrent Neural Network)
 - Framework: PyTorch / TensorFlow (update this based on your code)
 - Input: Historical stock prices (sliding window approach)
 - Sequence length: 30 time steps
 
----
-
-## ⚙️ Methodology
+## Methodology
 
 1. **Data Preprocessing**
    - Normalization of stock prices
@@ -29,13 +23,7 @@ The goal is to capture temporal patterns in stock price movements and generate f
    - Model predictions compared against actual prices
    - Visualized predicted vs real values
 
----
+## Results
 
-## 📊 Results
-
-- The model successfully learns general trends in stock prices
+- The model successfully learns general trends in stock prices with test RMSE 0.12648713462181738.
 - Predictions follow the overall direction but may lag in sudden changes
-
-(*Optional: add RMSE if you have it*)
-
----
